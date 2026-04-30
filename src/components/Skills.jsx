@@ -5,33 +5,33 @@ import './Skills.css'
 const Skills = () => {
   const skillCategories = [
     {
-      name: 'Programming Languages',
-      skills: ['Python (Pandas, NumPy)', 'SQL', 'JavaScript', 'HTML/CSS'],
+      name: 'Programming',
+      skills: ['Python', 'SQL', 'JavaScript'],
       color: 'primary',
     },
     {
-      name: 'Data Visualization',
-      skills: ['Tableau', 'Advanced Excel Charts', 'Matplotlib', 'Seaborn', 'Recharts'],
+      name: 'Visualization',
+      skills: ['Tableau', 'Excel', 'Recharts'],
       color: 'secondary',
     },
     {
       name: 'Databases',
-      skills: ['MySQL', 'PostgreSQL', 'MongoDB', 'Firebase', 'SQL Optimization'],
+      skills: ['MySQL', 'PostgreSQL', 'MongoDB'],
       color: 'accent',
     },
     {
-      name: 'Data Analysis & Tools',
-      skills: ['Excel (Pivot Tables, VLOOKUP, XLOOKUP)', 'Google Sheets', 'Data Cleaning', 'Power Query', 'Jupyter Notebook'],
+      name: 'Data Tools',
+      skills: ['Pandas', 'NumPy', 'Scikit-learn'],
       color: 'primary',
     },
     {
-      name: 'ML & Statistics',
-      skills: ['Scikit-learn', 'Hypothesis Testing', 'Regression Analysis', 'Decision Trees', 'Clustering', 'Probability & Statistics'],
+      name: 'ML & Stats',
+      skills: ['Regression', 'Classification', 'Hypothesis Testing'],
       color: 'secondary',
     },
     {
-      name: 'Tools & Technologies',
-      skills: ['Git & GitHub', 'ETL Processes', 'Data Preprocessing', 'API Integration', 'LangGraph', 'Streamlit'],
+      name: 'Tools',
+      skills: ['Git', 'Jupyter', 'Streamlit'],
       color: 'accent',
     },
   ]
@@ -107,12 +107,12 @@ const Skills = () => {
           <h3 className="proficiency-title">Proficiency Levels</h3>
           <div className="proficiency-chart">
             {[
-              { skill: 'Python & SQL', level: 95 },
-              { skill: 'Data Visualization', level: 90 },
-              { skill: 'Analytics & BI', level: 88 },
-              { skill: 'Machine Learning', level: 85 },
-              { skill: 'Web Development', level: 80 },
-              { skill: 'Cloud Platforms', level: 78 },
+              { skill: 'Python & SQL', level: 88 },
+              { skill: 'Data Visualization', level: 85 },
+              { skill: 'Analytics & BI', level: 82 },
+              { skill: 'Machine Learning', level: 78 },
+              { skill: 'Web Development', level: 75 },
+              { skill: 'ETL & Databases', level: 80 },
             ].map((item, index) => (
               <motion.div
                 key={index}

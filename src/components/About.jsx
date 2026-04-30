@@ -51,20 +51,13 @@ const About = () => {
             variants={fadeInUp}
             className="about-text"
           >
-            <p>
-              I'm a passionate data analyst with expertise in transforming raw data into meaningful insights.
-              With a strong foundation in Python, SQL, and advanced analytics, I specialize in building end-to-end
-              data solutions that drive measurable business value.
+              <p>
+              I build dashboards that make data feel simple — fast to scan, hard to misread.
+              Currently in my 2nd year of B.Tech, I'm transforming raw data into compelling visual stories.
             </p>
             <p>
-              My experience spans data cleaning and wrangling, statistical analysis, machine learning, and
-              interactive dashboard design. I excel at discovering patterns in large datasets, performing hypothesis testing,
-              and communicating findings to stakeholders through compelling visualizations.
-            </p>
-            <p>
-              I'm experienced with Tableau dashboards, Excel analytics, Jupyter notebooks, and modern data tools.
-              My analytical thinking, problem-solving skills, and business acumen help me translate complex data challenges
-              into actionable solutions that create real impact.
+              I specialize in end-to-end analytics pipelines, interactive dashboards, and predictive models 
+              that drive business decisions. My focus: turning complex data into clear, actionable insights.
             </p>
           </motion.div>
 

@@ -5,7 +5,6 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
-import Analytics from './components/Analytics'
 import Contact from './components/Contact'
 import Navigation from './components/Navigation'
 
@@ -29,7 +28,6 @@ function App() {
         <About />
         <Skills />
         <Projects />
-        <Analytics />
         <Contact />
       </main>
       <footer className="footer">

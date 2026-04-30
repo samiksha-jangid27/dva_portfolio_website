@@ -44,13 +44,12 @@ const Hero = () => {
           </motion.h1>
 
           <motion.p variants={itemVariants} className="hero-subtitle">
-            Data Analytics & Visualization Specialist
+            Data Analyst · Visualization Specialist
           </motion.p>
 
           <motion.p variants={itemVariants} className="hero-description">
-            I transform raw data into compelling visual stories, building end-to-end analytics
-            pipelines with Python, SQL, Tableau, and machine learning. Specialized in data wrangling,
-            statistical analysis, and creating actionable insights that drive business decisions.
+            I build dashboards that make data feel simple — fast to scan, hard to misread.
+            Transforming raw data into compelling visual stories through end-to-end analytics pipelines.
           </motion.p>
 
           <motion.div variants={itemVariants} className="hero-cta">
