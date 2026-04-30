@@ -28,8 +28,8 @@ const Contact = () => {
     {
       icon: <FiMail />,
       label: 'Email',
-      value: 'jindalgauri244@gmail.com',
-      link: 'mailto:jindalgauri244@gmail.com',
+      value: 'samikshajangid30@gmail.com',
+      link: 'mailto:samikshajangid30@gmail.com',
     },
     {
       icon: <FiPhone />,
@@ -54,7 +54,7 @@ const Contact = () => {
     {
       icon: <FiLinkedin />,
       label: 'LinkedIn',
-      url: 'https://linkedin.com/in/gauri-jindal',
+      url: 'https://www.linkedin.com/in/samiksha-jangid/',
     },
     {
       icon: <FiTwitter />,

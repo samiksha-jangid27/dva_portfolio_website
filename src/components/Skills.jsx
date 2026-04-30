@@ -5,33 +5,33 @@ import './Skills.css'
 const Skills = () => {
   const skillCategories = [
     {
-      name: 'Languages',
-      skills: ['Python', 'SQL', 'JavaScript', 'HTML/CSS', 'R'],
+      name: 'Programming Languages',
+      skills: ['Python (Pandas, NumPy)', 'SQL', 'JavaScript', 'HTML/CSS'],
       color: 'primary',
     },
     {
-      name: 'Data Tools',
-      skills: ['Tableau', 'Power BI', 'Excel', 'Google Analytics', 'Looker'],
+      name: 'Data Visualization',
+      skills: ['Tableau', 'Advanced Excel Charts', 'Matplotlib', 'Seaborn', 'Recharts'],
       color: 'secondary',
     },
     {
       name: 'Databases',
-      skills: ['MySQL', 'PostgreSQL', 'MongoDB', 'Firebase', 'BigQuery'],
+      skills: ['MySQL', 'PostgreSQL', 'MongoDB', 'Firebase', 'SQL Optimization'],
       color: 'accent',
     },
     {
-      name: 'ML & Analytics',
-      skills: ['Scikit-learn', 'Pandas', 'NumPy', 'TensorFlow', 'Statistics'],
+      name: 'Data Analysis & Tools',
+      skills: ['Excel (Pivot Tables, VLOOKUP, XLOOKUP)', 'Google Sheets', 'Data Cleaning', 'Power Query', 'Jupyter Notebook'],
       color: 'primary',
     },
     {
-      name: 'Tools & Platforms',
-      skills: ['Git', 'Jupyter', 'VS Code', 'AWS', 'Google Cloud'],
+      name: 'ML & Statistics',
+      skills: ['Scikit-learn', 'Hypothesis Testing', 'Regression Analysis', 'Decision Trees', 'Clustering', 'Probability & Statistics'],
       color: 'secondary',
     },
     {
-      name: 'Frameworks',
-      skills: ['React', 'Flask', 'Django', 'REST APIs', 'Apache Spark'],
+      name: 'Tools & Technologies',
+      skills: ['Git & GitHub', 'ETL Processes', 'Data Preprocessing', 'API Integration', 'LangGraph', 'Streamlit'],
       color: 'accent',
     },
   ]

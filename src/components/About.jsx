@@ -39,7 +39,7 @@ const About = () => {
         >
           <h2 className="section-title">About Me</h2>
           <p className="section-description">
-            ML Engineer & Data Visualization Specialist at Newton School of Technology
+            Data Analyst & Visualization Expert | Python • SQL • Tableau • Analytics
           </p>
         </motion.div>
 
@@ -52,18 +52,19 @@ const About = () => {
             className="about-text"
           >
             <p>
-              I'm a passionate data professional with expertise in transforming raw data into meaningful insights.
+              I'm a passionate data analyst with expertise in transforming raw data into meaningful insights.
               With a strong foundation in Python, SQL, and advanced analytics, I specialize in building end-to-end
-              data solutions that drive business value.
+              data solutions that drive measurable business value.
             </p>
             <p>
-              My journey in data analytics has equipped me with the skills to design complex data pipelines,
-              develop insightful dashboards, and communicate findings to stakeholders. I believe in the power of
-              data-driven decision making and the importance of clear visualization in telling data stories.
+              My experience spans data cleaning and wrangling, statistical analysis, machine learning, and
+              interactive dashboard design. I excel at discovering patterns in large datasets, performing hypothesis testing,
+              and communicating findings to stakeholders through compelling visualizations.
             </p>
             <p>
-              When I'm not diving into data, you'll find me exploring new technologies, contributing to open-source
-              projects, or mentoring aspiring data professionals.
+              I'm experienced with Tableau dashboards, Excel analytics, Jupyter notebooks, and modern data tools.
+              My analytical thinking, problem-solving skills, and business acumen help me translate complex data challenges
+              into actionable solutions that create real impact.
             </p>
           </motion.div>
 

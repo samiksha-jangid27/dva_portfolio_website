@@ -29,10 +29,10 @@ const Analytics = () => {
   ]
 
   const stats = [
-    { label: 'Projects Completed', value: '50+', icon: '📊' },
-    { label: 'Total Learning Hours', value: '2000+', icon: '⏱️' },
-    { label: 'Repositories', value: '25+', icon: '📦' },
-    { label: 'Certifications', value: '12', icon: '🏆' },
+    { label: 'Projects Completed', value: '3+', icon: '📊' },
+    { label: 'Data Records Analyzed', value: '500K+', icon: '📈' },
+    { label: 'GitHub Repositories', value: '10+', icon: '📦' },
+    { label: 'Dashboards Built', value: '4+', icon: '🎨' },
   ]
 
   const containerVariants = {
@@ -185,29 +185,29 @@ const Analytics = () => {
               <div className="achievement">
                 <div className="achievement-icon">🎯</div>
                 <div>
-                  <h4>Data Pipeline Optimization</h4>
-                  <p>Reduced processing time by 60% through ETL optimization</p>
+                  <h4>Telecom Churn Analysis</h4>
+                  <p>Analyzed 243K+ customer records revealing 20.05% churn drivers</p>
                 </div>
               </div>
               <div className="achievement">
                 <div className="achievement-icon">📈</div>
                 <div>
-                  <h4>ML Model Accuracy</h4>
-                  <p>Achieved 94% accuracy in customer churn prediction</p>
+                  <h4>Banking Stock Analysis</h4>
+                  <p>SBI achieved 180% returns with volatility-momentum signal 78% accuracy</p>
                 </div>
               </div>
               <div className="achievement">
-                <div className="achievement-icon">💡</div>
+                <div className="achievement-icon">⚡</div>
                 <div>
-                  <h4>Business Impact</h4>
-                  <p>Generated $500k+ revenue insights through analysis</p>
+                  <h4>EV Charging Forecasting</h4>
+                  <p>LangGraph agentic AI system with 69% R² demand prediction accuracy</p>
                 </div>
               </div>
               <div className="achievement">
                 <div className="achievement-icon">🌟</div>
                 <div>
-                  <h4>Team Leadership</h4>
-                  <p>Mentored 10+ junior data professionals</p>
+                  <h4>Data Storytelling</h4>
+                  <p>4+ interactive Tableau dashboards with actionable business insights</p>
                 </div>
               </div>
             </div>

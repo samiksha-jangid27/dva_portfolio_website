@@ -44,13 +44,13 @@ const Hero = () => {
           </motion.h1>
 
           <motion.p variants={itemVariants} className="hero-subtitle">
-            Data & Visual Analytics Specialist
+            Data Analytics & Visualization Specialist
           </motion.p>
 
           <motion.p variants={itemVariants} className="hero-description">
             I transform raw data into compelling visual stories, building end-to-end analytics
-            pipelines with Python, SQL, Tableau, and machine learning. Passionate about uncovering
-            insights that drive business decisions.
+            pipelines with Python, SQL, Tableau, and machine learning. Specialized in data wrangling,
+            statistical analysis, and creating actionable insights that drive business decisions.
           </motion.p>
 
           <motion.div variants={itemVariants} className="hero-cta">
@@ -72,7 +72,7 @@ const Hero = () => {
               <FiGithub />
             </motion.a>
             <motion.a
-              href="https://linkedin.com/in/gauri-jindal"
+              href="https://www.linkedin.com/in/samiksha-jangid/"
               className="social-link"
               whileHover={{ scale: 1.1, y: -5 }}
               whileTap={{ scale: 0.95 }}
@@ -80,7 +80,7 @@ const Hero = () => {
               <FiLinkedin />
             </motion.a>
             <motion.a
-              href="mailto:jindalgauri244@gmail.com"
+              href="mailto:samikshajangid30@gmail.com"
               className="social-link"
               whileHover={{ scale: 1.1, y: -5 }}
               whileTap={{ scale: 0.95 }}
