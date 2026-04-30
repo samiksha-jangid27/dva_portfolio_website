@@ -44,41 +44,42 @@
 
 .features-grid {
   display: grid;
-  grid-template-columns: 1fr;
-  gap: 25px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
 }
 
 .feature-card {
-  background: rgba(30, 41, 59, 0.5);
+  background: var(--card-bg);
   border: 1px solid var(--border-color);
-  border-radius: 12px;
-  padding: 30px;
+  border-radius: 8px;
+  padding: 15px;
   transition: all 0.3s ease;
 }
 
 .feature-card:hover {
-  background: rgba(30, 41, 59, 0.8);
-  border-color: var(--primary-color);
-  transform: translateY(-5px);
+  background: var(--secondary-color);
+  border-color: var(--accent-color);
+  transform: translateY(-3px);
 }
 
 .feature-icon {
-  font-size: 32px;
-  color: var(--primary-color);
-  margin-bottom: 15px;
+  font-size: 28px;
+  color: var(--accent-color);
+  margin-bottom: 10px;
 }
 
 .feature-card h3 {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   color: var(--text-primary);
 }
 
 .feature-card p {
-  font-size: 14px;
+  font-size: 12px;
   color: var(--text-secondary);
   margin: 0;
+  line-height: 1.5;
 }
 
 @media (max-width: 1024px) {
@@ -86,22 +87,30 @@
     grid-template-columns: 1fr;
     gap: 40px;
   }
+
+  .features-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media (max-width: 768px) {
   .about {
-    padding: 60px 20px;
+    padding: 40px 20px;
   }
 
   .section-title {
-    font-size: 36px;
+    font-size: 28px;
   }
 
   .section-description {
-    font-size: 16px;
+    font-size: 13px;
   }
 
   .about-text p {
-    font-size: 15px;
+    font-size: 13px;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
   }
 }

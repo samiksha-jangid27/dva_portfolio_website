@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
-import { FiMail, FiLinkedin, FiGithub, FiTwitter } from 'react-icons/fi'
+import { FiMail, FiLinkedin, FiGithub } from 'react-icons/fi'
 import './Contact.css'
 
 const Contact = () => {
@@ -43,11 +43,6 @@ const Contact = () => {
       icon: <FiLinkedin />,
       label: 'LinkedIn',
       url: 'https://www.linkedin.com/in/samiksha-jangid/',
-    },
-    {
-      icon: <FiTwitter />,
-      label: 'Twitter',
-      url: 'https://twitter.com',
     },
   ]
 

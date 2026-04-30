@@ -31,7 +31,7 @@ const Projects = () => {
       description: 'Analyzed 243K+ telecom customers across 4 operators. Built Tableau dashboard identifying 20.05% churn drivers with actionable retention strategies.',
       tags: ['Python', 'Tableau', 'SQL', 'Statistical Analysis'],
       image: '📊',
-      link: 'https://public.tableau.com/views/Telecom_analysis_17774577765420/Dashboard3',
+      link: 'https://public.tableau.com/views/Telecom_analysis_17774577765420/Dashboard1',
       github: 'https://github.com/samiksha-jangid27/SectionC_G5_Telecom_Analytics',
     },
   ]
