@@ -7,32 +7,26 @@ const Skills = () => {
     {
       name: 'Programming',
       skills: ['Python', 'SQL', 'JavaScript'],
-      color: 'primary',
     },
     {
       name: 'Visualization',
       skills: ['Tableau', 'Excel', 'Recharts'],
-      color: 'secondary',
     },
     {
       name: 'Databases',
       skills: ['MySQL', 'PostgreSQL', 'MongoDB'],
-      color: 'accent',
     },
     {
       name: 'Data Tools',
       skills: ['Pandas', 'NumPy', 'Scikit-learn'],
-      color: 'primary',
     },
     {
       name: 'ML & Stats',
       skills: ['Regression', 'Classification', 'Hypothesis Testing'],
-      color: 'secondary',
     },
     {
       name: 'Tools',
       skills: ['Git', 'Jupyter', 'Streamlit'],
-      color: 'accent',
     },
   ]
 
@@ -41,14 +35,14 @@ const Skills = () => {
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.1,
+        staggerChildren: 0.05,
       },
     },
   }
 
   const itemVariants = {
-    hidden: { opacity: 0, scale: 0.8 },
-    visible: { opacity: 1, scale: 1, transition: { duration: 0.4 } },
+    hidden: { opacity: 0, y: 10 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.3 } },
   }
 
   return (
@@ -60,10 +54,7 @@ const Skills = () => {
           viewport={{ once: true }}
           className="section-header"
         >
-          <h2 className="section-title">Skills & Expertise</h2>
-          <p className="section-description">
-            A comprehensive toolkit built through hands-on experience and continuous learning
-          </p>
+          <h2 className="section-title">Skills</h2>
         </motion.div>
 
         <motion.div
@@ -76,9 +67,8 @@ const Skills = () => {
           {skillCategories.map((category, index) => (
             <motion.div
               key={index}
-              className={`skill-category category-${category.color}`}
+              className="skill-category"
               variants={itemVariants}
-              whileHover={{ y: -5 }}
             >
               <h3>{category.name}</h3>
               <div className="skills-list">
@@ -87,7 +77,6 @@ const Skills = () => {
                     key={skillIndex}
                     className="skill-tag"
                     whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
                   >
                     {skill}
                   </motion.span>
@@ -95,49 +84,6 @@ const Skills = () => {
               </div>
             </motion.div>
           ))}
-        </motion.div>
-
-        {/* Proficiency Chart */}
-        <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="proficiency-section"
-        >
-          <h3 className="proficiency-title">Proficiency Levels</h3>
-          <div className="proficiency-chart">
-            {[
-              { skill: 'Python & SQL', level: 88 },
-              { skill: 'Data Visualization', level: 85 },
-              { skill: 'Analytics & BI', level: 82 },
-              { skill: 'Machine Learning', level: 78 },
-              { skill: 'Web Development', level: 75 },
-              { skill: 'ETL & Databases', level: 80 },
-            ].map((item, index) => (
-              <motion.div
-                key={index}
-                className="proficiency-item"
-                initial={{ opacity: 0, x: -20 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-              >
-                <div className="proficiency-label">
-                  <span>{item.skill}</span>
-                  <span className="proficiency-percentage">{item.level}%</span>
-                </div>
-                <div className="proficiency-bar">
-                  <motion.div
-                    className="proficiency-fill"
-                    initial={{ width: 0 }}
-                    whileInView={{ width: `${item.level}%` }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 1, delay: 0.2 + index * 0.1 }}
-                  />
-                </div>
-              </motion.div>
-            ))}
-          </div>
         </motion.div>
       </div>
     </section>

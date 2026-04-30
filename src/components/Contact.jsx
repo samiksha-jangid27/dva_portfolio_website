@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
-import { FiMail, FiPhone, FiMapPin, FiLinkedin, FiGithub, FiTwitter } from 'react-icons/fi'
+import { FiMail, FiLinkedin, FiGithub, FiTwitter } from 'react-icons/fi'
 import './Contact.css'
 
 const Contact = () => {
@@ -30,18 +30,6 @@ const Contact = () => {
       label: 'Email',
       value: 'samikshajangid30@gmail.com',
       link: 'mailto:samikshajangid30@gmail.com',
-    },
-    {
-      icon: <FiPhone />,
-      label: 'Phone',
-      value: '+91 7017115481',
-      link: 'tel:+917017115481',
-    },
-    {
-      icon: <FiMapPin />,
-      label: 'Location',
-      value: 'Ghaziabad, India',
-      link: '#',
     },
   ]
 
