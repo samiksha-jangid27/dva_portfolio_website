@@ -1,0 +1,35 @@
+{
+  "name": "dva_port",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samiksha-jangid27/dva_portfolio_website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/samiksha-jangid27/dva_portfolio_website/issues"
+  },
+  "homepage": "https://github.com/samiksha-jangid27/dva_portfolio_website#readme",
+  "dependencies": {
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.1",
+    "framer-motion": "^12.38.0",
+    "react-icons": "^5.6.0",
+    "recharts": "^3.8.1",
+    "vite": "^8.0.10"
+  }
+}
